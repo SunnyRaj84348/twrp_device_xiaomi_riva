@@ -65,6 +65,9 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
+# System-as-root
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 TW_INCLUDE_CRYPTO := true
