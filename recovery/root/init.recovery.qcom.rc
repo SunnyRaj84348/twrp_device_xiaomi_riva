@@ -31,6 +31,8 @@ on fs
     chmod 0664 /dev/ion
     chown system system /dev/ion
 
+    setprop ro.board.platform msm8937
+
 on property:ro.crypto.state=encrypted
     start sbinqseecomd
 
